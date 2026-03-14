@@ -1,4 +1,4 @@
-echo off
+@echo off
 echo 'Compiling...'
 g++ -c -o AtlasCore.o AtlasCore.cpp
 g++ -c -o AtlasExtension.o AtlasExtension.cpp
