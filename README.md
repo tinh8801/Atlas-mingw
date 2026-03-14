@@ -1,11 +1,7 @@
 # Atlas
 * A text script insertion utility designed for the translation of retro videogames.
 * Original repo: https://github.com/stevemonaco/Atlas
-<<<<<<< HEAD
 * I modifed some code to compile source using MinGW instead Visual C++
-=======
-* I modified some code to compile source using MinGW instead Visual C++
->>>>>>> fdbdb50818f5db8e6e0a145d78d39346644186d6
 
 ## Text Table Support
 * Encodes standard text arbitrary, custom encodings typical of early videogames
