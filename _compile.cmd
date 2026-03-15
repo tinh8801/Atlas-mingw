@@ -1,5 +1,5 @@
 ::@echo off
-echo 'Dang bien dich...'
+echo 'Compiling...'
 g++ -Os -c -o AtlasCore.o AtlasCore.cpp
 g++ -Os -c -o AtlasExtension.o AtlasExtension.cpp
 g++ -Os -c -o AtlasFile.o AtlasFile.cpp
@@ -13,6 +13,6 @@ g++ -Os -c -o Pointer.o Pointer.cpp
 g++ -Os -c -o PointerHandler.o PointerHandler.cpp
 g++ -Os -c -o Table.o Table.cpp
 g++ -o atlas AtlasCore.o AtlasExtension.o AtlasFile.o AtlasLogger.o AtlasMain.o AtlasParser.o AtlasStats.o AtlasTypes.o GenericVariable.o Pointer.o PointerHandler.o Table.o
-echo 'Hoan thanh.'
+echo 'Finished.'
 pause
 
